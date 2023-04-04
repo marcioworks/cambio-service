@@ -24,6 +24,9 @@ spring:
     schemas: cambio-service
     user: root
     password:
+  sleuth:
+    sampler:
+      probability: 1.0   # em prod deve ser 0.05
 springdoc:
   show-actuator: true
   api-docs:
